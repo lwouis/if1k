@@ -1,6 +1,6 @@
 module.exports = {
   devtool: 'inline-source-map',
-  entry: './app.ts',
+  entry: './src/main/ts/app.ts',
   output: {
     filename: 'bundle.js'
   },
@@ -14,5 +14,4 @@ module.exports = {
       { test: /\.tsx?$/, loader: 'ts-loader' }
     ]
   }
-}
-  
+};
